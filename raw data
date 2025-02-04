@@ -1,0 +1,49 @@
+## 📂 Dataset Description  
+The dataset consists of five CSV files:  
+
+### **1. dim_date.csv**  
+Contains date-related information.  
+
+date – The actual date.
+mmm yy – The month and year in the format "Month Year" (e.g., May 22, Jun 22).
+week no – A unique number assigned to each week.
+day_type – Specifies whether a date falls on a Weekday or Weekend. 
+
+### **2. dim_hotels.csv**  
+Contains details of hotels, including their category and location.  
+
+property_id – A unique identifier assigned to each hotel.
+property_name – The name of the hotel.
+category – The classification of the hotel, either Luxury or Business.
+city – The city where the hotel is located.
+
+### **3. dim_rooms.csv**  
+Defines the types of rooms available in each hotel.  
+
+room_id – A unique identifier for each room type (RT1, RT2, RT3, RT4).
+room_class – The classification of the room (Standard, Elite, Premium, Presidential).
+
+### **4. fact_aggregated_bookings.csv**  
+Provides aggregated booking details at the room level.  
+
+property_id – The unique hotel identifier.
+check_in_date – The date when guests check in.
+room_category – The type of room booked (RT1, RT2, RT3, RT4).
+successful_bookings – The total number of confirmed bookings.
+capacity – The maximum number of rooms available in that category.
+
+### **5. fact_bookings.csv**  
+Records individual booking transactions, including financials.  
+
+booking_id – A unique identifier for each booking.
+property_id – The hotel where the booking was made.
+booking_date – The date when the booking was made.
+check_in_date – The date when the guest checks in.
+check_out_date – The date when the guest checks out.
+no_guests – The number of guests included in the booking.
+room_category – The type of room booked (RT1, RT2, RT3, RT4).
+booking_platform – The platform used to make the reservation (Booking.com, Expedia).
+ratings_given – The rating given by the guest after their stay.
+booking_status – The status of the booking (Cancelled, Checked Out, No Show).
+revenue_generated – The initial revenue from the booking before any deductions.
+revenue_realized – The final revenue after any applicable discounts or cancellations.
