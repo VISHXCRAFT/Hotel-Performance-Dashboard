@@ -5,6 +5,8 @@
 The **Hotel Performance Dashboard** is an interactive data visualization tool designed to help hotel businesses analyze key performance indicators (KPIs), track revenue trends, and optimize operational efficiency. 
 The dashboard integrates data from **Property Management Systems (PMS), Online Travel Agencies (OTAs), and internal booking systems** to provide real-time insights.  
 
+![Hospitality Domain Overview](https://github.com/user-attachments/assets/5d85d4b2-0b21-4ff8-a13c-60608bc309d4)
+
 ---
 
 ## 🎯 **Project Objective**  
